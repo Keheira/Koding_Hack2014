@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"></meta>
+	</head>
+	
+	<body ng-app="PubNubAngularApp">
+
+		<div>
+			<textarea rows="4" cols="50" id="chat"></textarea>
+		</div>	
+		<div>
+			<input id="msg" type="text"/>
+			<input id="send" type="button" value="Send"/>
+		</div>
+		<!--<script src="http://cdn.pubnub.com/pubnub.min.js"></script>
+		<script src="scripts/angular.js"></script>
+		<script src="scripts/pubnub-angular.js"></script>
+		<script src="scripts/app.js"></script>
+		<script src="scripts/controllers/main.js"></script>-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://cdn.pubnub.com/pubnub.min.js"></script>
+		<script charset="utf-8" type="text/javascript">
+		var text = "Hey!";
+		
+
+		$(document).ready(function(){
+			var chat = $('#chat')[0];
+			var send = $('#send')[0];
+			var msg = $('#msg')[0];
+
+
+
+			 
+				var GOAT = PUBNUB.init({
+					publish_key: 'demo',
+					subscribe_key: 'demo'
+				});
+				
+				GOAT.subscribe({
+					channel: 'demo_tutorial',
+					message: function(m){
+						console.log(m);
+						chat.value = chat.value + "\n";
+						chat.value += text;
+						chat.scrollTop = chat.scrollHeight;
+					},
+					connect : publish
+				});
+				
+				var publish = function () {
+					GOAT.publish({
+					channel: 'demo_tutorial',
+					message: {"text": text}
+					});
+				}
+			
+
+			
+			
+			send.addEventListener("click", function(){
+				text = msg.value;
+				publish();
+			});
+			document.addEventListener("keydown", function(e){
+				if (e.keyCode == 13)
+				{
+					text = msg.value;
+					publish();
+				}
+			});
+		});
+		
+		
+		</script> 
+	</body>
+</html>
