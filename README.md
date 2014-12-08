@@ -11,9 +11,9 @@ A brief introduction to your project. It should include the motivation behind th
 
 ## SCREENSHOTS
 
-![Screenshot](https://raw.githubusercontent.com/Keheira/Koding_Hack2014/master/images/CoCo-Code%20Collaboration%20%E2%80%BA%20Home.png "Screenshot")
-![Screenshot1](/images/CoCo-Code Collaboration > Sign Up.png?raw=true "Screnshot1")
-![Screenshot2](/images/CoCo-Code Collaboration > Login.png?raw=true "Screenshot2")
+![Screenshot](https://raw.githubusercontent.com/Keheira/Koding_Hack2014/master/images/CoCo-Code%20Collaboration%20%E2%80%BA%20Home.png)
+![Screenshot1](https://raw.githubusercontent.com/Keheira/Koding_Hack2014/master/images/CoCo-Code%20Collaboration%20%E2%80%BA%20Sign%20Up.png)
+![Screenshot2](https://raw.githubusercontent.com/Keheira/Koding_Hack2014/master/images/CoCo-Code%20Collaboration%20%E2%80%BA%20Login.png)
 
 ## APIs USED
 PubNub for chat functionality
