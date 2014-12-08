@@ -1,8 +1,5 @@
 ## Koding Hackathon 2014
 =============================================================================================================================
-
-Code from Team Goat for the 2014 Koding Virtual Hackathon
-
 ## DESCRIPTION
 
 [![Koding Hackathon](/images/badge.png?raw=true "Koding Hackathon")](https://koding.com/Hackathon)
