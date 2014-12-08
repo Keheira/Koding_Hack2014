@@ -1,10 +1,9 @@
-## Koding Hackathon 2014
+## Koding Hackathon 2014 - Team Goat
 =============================================================================================================================
 ## DESCRIPTION
-
 [![Koding Hackathon](/images/badge.png?raw=true "Koding Hackathon")](https://koding.com/Hackathon)
 
-Hello,
+Hello,<br>
 We are Team Goat. We consist on three key members. Keheira, Daniel, and Jamone. We chose to work on "Challenges associated with real time communication and translation". We focused in on the communication portion of this theme. In order to do that we asked one big question, "What would a site look like that allowed people to code together on projects such as this one?" Now two out of 3 team member were within a 50 mile radius but one member was in a different state altogether. With this idea we could minimize the "struggle" of being able to simultaniously help people with coding without middle man clients. We dubbed our project as the Google Docs for coders because that is what we aimed to create. We hope you enjoy the working funtionality of our site in it's begining stage. Due to this being a relatively new idea we are restricting the sign ups to certain university student accounts and as the project grows we hope to be able to allow all other accounts.
 
 ## SCREENSHOTS
