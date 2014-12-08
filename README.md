@@ -11,7 +11,7 @@ A brief introduction to your project. It should include the motivation behind th
 
 ## SCREENSHOTS
 
-![Screenshot](/images/CoCo-Code Collaboration > Home.png?raw=true "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/Keheira/Koding_Hack2014/master/images/CoCo-Code%20Collaboration%20%E2%80%BA%20Home.png "Screenshot")
 ![Screenshot1](/images/CoCo-Code Collaboration > Sign Up.png?raw=true "Screnshot1")
 ![Screenshot2](/images/CoCo-Code Collaboration > Login.png?raw=true "Screenshot2")
 
